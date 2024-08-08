@@ -85,39 +85,27 @@ body {
     right: 10px;
 }
 .categoria-videos {
-    display: flex;
-    overflow-x: auto;
-    gap: 10px;
-  }
-  
-  section {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-  section {
-    background: rgb(52, 48, 48);
-    padding-bottom: 80px;
-    padding-top: 80px;
-    display: flex;
-    justify-content: center;
-  }
-  
+  display: flex;
+  overflow-x: auto;
+  gap: 9px;
+}
+.chamada {
+  background: rgb(30, 30, 30);
+  padding-bottom: 50px;
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+section {
+  padding-left: 10px;
+  padding-right: 10px;
+}
   /* código omitido */
   
-  section {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-  .chamada {
-    background: rgb(184, 156, 213);
-    padding-bottom: 80px;
-    padding-top: 80px;
-    display: flex;
-    justify-content: center;
-  }
 .descrisao{
-    background-color: rgb(43, 43, 43);
-    color: rgb(173, 172, 172);
+    background-color: rgb(26, 26, 26);
+    color: rgb(58, 58, 58);
 
 }
 .bebas-neue-regular {
@@ -126,3 +114,13 @@ body {
     font-style: normal;
   }
   
+  .categoria-videos img {
+    opacity: 0.5;
+    height: 200px
+}
+
+
+  .categoria-videos img:hover {
+    opacity: 1.0;
+    border: 1px solid rgb(58, 58, 58);
+}
